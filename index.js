@@ -52,6 +52,8 @@ pass = pass.slice(0, passWord)
 
 senhaCont.style.display = "block"
 senha.value = pass;
+btnCopy.style.backgroundColor = "rgb(48, 121, 185)";
+btnCopy.innerHTML = "Copiar Senha"
 }
 
 btnCopy.addEventListener("click", () => {

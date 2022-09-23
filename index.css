@@ -52,6 +52,17 @@ h1{
   display: none;
 }
 
+#pass{
+  border: none;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+#pass:focus{
+  outline: none;
+  border: 1px solid green;
+}
+
 .btn{
   padding: 5px 13px;
   background-color: rgb(48, 121, 185);
